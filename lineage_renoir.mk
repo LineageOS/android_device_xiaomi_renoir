@@ -20,4 +20,15 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := M2101K9G
 PRODUCT_NAME := lineage_renoir
 
+PRODUCT_SYSTEM_NAME := renoir_global
+PRODUCT_SYSTEM_DEVICE := renoir
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="renoir_global-user 12 SKQ1.211006.001 V13.0.8.0.SKIMIXM release-keys" \
+    TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
+    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
+
+# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
+BUILD_FINGERPRINT := Xiaomi/renoir_global/renoir:12/SKQ1.211006.001/V13.0.8.0.SKIMIXM:user/release-keys
