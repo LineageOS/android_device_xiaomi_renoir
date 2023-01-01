@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "03227ce5_1c14178b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2023-01-01T14:21:29Z",
+      "side": 1,
+      "message": "It is intentionally set to Mi 11 Lite without 5G, just like it is on stock.\nhttps://dumps.tadiphone.dev/dumps/xiaomi/renoir/-/blob/missi-user-12-SKQ1.211006.001-V13.0.8.0.SKIMIXM-release-keys/vendor/build.prop#L425",
+      "revId": "336af36534278345246bb1b7f1a44458ac4e2e5a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
