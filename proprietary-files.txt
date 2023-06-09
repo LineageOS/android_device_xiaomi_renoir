@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from renoir V14.0.3.0.TKIMIXM
+# All unpinned blobs below are extracted from renoir V14.0.4.0.TKIMIXM
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
