@@ -32,7 +32,8 @@ BOARD_DTBOIMG_PARTITION_SIZE := 25165824
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 114001162240
 
 # Vibrator
-SOONG_CONFIG_xiaomiSm8350Vars_vibrator_use_effect_stream := true
+TARGET_QTI_VIBRATOR_EFFECT_LIB := libqtivibratoreffect.xiaomi
+TARGET_QTI_VIBRATOR_USE_EFFECT_STREAM := true
 
 # Include proprietary files
 include vendor/xiaomi/renoir/BoardConfigVendor.mk
