@@ -1,0 +1,20 @@
+## All proprietary files from this list, unless pinned and noted otherwise,
+## are from renoir MIUI V14.0.7.0.TKIMIXM
+
+abl.img;AB
+aop.img;AB
+bluetooth.img;AB
+cpucp.img;AB
+devcfg.img;AB
+dsp.img;AB
+featenabler.img;AB
+hyp.img;AB
+imagefv.img;AB
+keymaster.img;AB
+modem.img;AB
+qupfw.img;AB
+shrm.img;AB
+tz.img;AB
+uefisecapp.img;AB
+xbl_config.img;AB
+xbl.img;AB
